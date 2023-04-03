@@ -1,3 +1,93 @@
 html {box-sizing: border-box;}
 *, ::after, ::before {box-sizing:inherit;}
 
+body {
+    margin: 0;
+   
+}
+
+.kontejner {
+    background-color: #FAFAFA;
+    margin:0;
+    font-weight: 300;
+    color: #8B8B8B;
+    font-family: montserrat;
+    padding: 60px 20px;
+   
+}
+
+.text,
+h2 {
+    font-size: 16px;
+    text-align: center;
+
+}
+
+h1 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin: 40px 0;
+  
+}
+
+h2 {
+    color: black
+}
+
+.hero {
+    text-align: center;
+}
+
+.tlacitko {
+    display: flex;
+    justify-content: center;
+}
+
+.tlacitko a {
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.dobrodruh a {
+    margin: 30px 0 10px 0;
+    background-color: #407BFF;
+}
+
+.dobrodruh a:hover{
+    background-color: #2c56b1;
+}
+
+.pohoda a {
+    background-color: #8B8B8B;
+}
+
+.pohoda a:hover {
+    background-color: #424242;
+}
+
+.ikona p {
+    font-size: 13px;
+}
+
+.ikona {
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+
+.text {
+    margin: 60px 0 30px 0;
+}
+
+
+
+
