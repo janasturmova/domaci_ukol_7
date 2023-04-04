@@ -17,14 +17,14 @@ body {
 
 .text,
 h2 {
-    font-size: 21px;
+    font-size: 16px;
     text-align: center;
 }
 
 h1 {
     color: #000000;
     font-weight: 600;
-    font-size: 37px;
+    font-size: 28px;
     text-align: center;
     margin: 40px 0;
 }
@@ -51,16 +51,12 @@ h2 {
     margin-bottom: 0;
 }
 
-.travels .text p{
-    margin-bottom: 0;
-} 
-
 .tlacitko a {
     padding: 10px 30px;
     color: white;
     text-decoration: none;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -82,7 +78,7 @@ h2 {
 }
 
 .ikona p {
-    font-size: 17px;
+    font-size: 13px;
 }
 
 .ikona {
@@ -101,13 +97,14 @@ h2 {
 
 @media screen and (min-width: 640px) {
     .kontejner {
-        padding: 60px 14.3%;
+        /*padding: 60px 14.3%;*/
+        padding: 60px 2.6%;
     }
 
     .hero{
-        margin: 0 9.7%;
-
+        margin: 0 21.4%;
     }
+
     .hero img{
         width: 100%;
     }
@@ -127,26 +124,43 @@ h2 {
     }
 
     .sluzby .text {
-        margin: 80px 0 40px 0;
+        margin: 80px 11.7% 40px 11.7%;
     }
-    
+
+    .travels .text {
+        margin: 0 11.7%;
+    }
+
     .nadikona {
         display: flex;
-        gap: 20px
+        justify-content: center;
+        gap: 20px;
     }
 
     .ikona {
         display: flex;
         flex-direction: column;
         text-align: center;
-
+        margin: 0;
+        align-items: center;
+        gap: 20px;
+        padding: 40px 20px;
     }
 
-    .ikona img {
-        width: 21.7%;
+    .kancelar .ikona img {
+        width: 45px;
+        height: 40px;
+        margin: ;
     }
-   
 
+    .pruvodce .ikona img {
+        width: 50px;
+        height: 40px;
+    }   
+
+    .sluzby .ikona p {
+        margin: 0;
+    }
 }
 
 
