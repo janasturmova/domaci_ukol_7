@@ -11,7 +11,6 @@ body {
     font-weight: 300;
     color: #8B8B8B;
     font-family: montserrat;
-    padding: 60px 20px;
     padding: 60px 4%;
 }
 
@@ -26,15 +25,27 @@ h1 {
     font-weight: 600;
     font-size: 28px;
     text-align: center;
-    margin: 40px 0;
+    margin: 40px 0 30px 0;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 60px;
+    background-color: #407BFF;
+    margin: 10px auto;
 }
 
 h2 {
     color: black
 }
 
-.hero {
-    text-align: center; 
+.travels p {
+    margin: 0;
+}
+
+.hero { 
     margin: 0 11%;
 }
 
@@ -47,9 +58,7 @@ h2 {
     justify-content: center;
 }
 
-.travels .text {
-    margin-bottom: 0;
-}
+
 
 .tlacitko a {
     padding: 10px 30px;
@@ -109,7 +118,7 @@ h2 {
     }
 
     h1 {
-        margin: 30px 0 40px 0;
+        margin: 30px 0 30px 0;
     }
 
     .tlacitko-meta {
@@ -166,16 +175,31 @@ h2 {
         display: flex;
         flex-direction: column;
         gap: 80px;
-        padding: 60px 6.7%;
+        padding: 60px 0;
+        align-items: center;
+        
     }
 
     .uvod {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: center;
+        max-width: 1040px;
+        gap: 60px;
+        align-items: center;
     }
 
     h1{
         text-align: left;
+    }
+
+    h1::after {
+        margin: 10px 0;
+    }
+
+    .travels {
+        flex-basis: 490px;
+
     }
     
     .travels .text {
@@ -183,14 +207,46 @@ h2 {
         margin: 0;
     }
 
+    .tlacitko-meta {
+        justify-content: left;
+    }
+
+    .hero{
+        margin: 0;
+        width: 490px;
+    }
+
+    .hero img {
+        width: 425px;
+    }
+
     .kancelar {
         display: flex;
         flex-direction: row-reverse;
+        max-width: 1040px;
+        gap: 60px;
+        align-items: center;
+    }
 
+    .sluzby .text {
+        width: 430px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .sluzby h2 {
+        text-align: left;
+    }
+
+    .nadikona {
+        width: 550px;
     }
 
     .pruvodce {
         display: flex;
+        max-width: 1040px;
+        gap: 60px;
+        align-items: center;
     }
     
 }
